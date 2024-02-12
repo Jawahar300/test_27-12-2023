@@ -5,12 +5,8 @@ public class GuesstheNumberGame {
     public static void main(String[] args) {
         System.out.println("Welcome to guess the number game..");
         Scanner scanner = new Scanner(System.in);
-
-
         Random random = new Random();
         int randomNumber = random.nextInt(100);
-
-
         for (int i = 0; i <= 5; i++) {
             int getNumber = scanner.nextInt();
             switch (i) {
